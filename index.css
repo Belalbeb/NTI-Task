@@ -154,7 +154,7 @@ body{
   }
 .image{
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: round;
 
 }
 .meal{
