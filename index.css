@@ -230,3 +230,62 @@ body{
 .nav .container.active {
   display: flex;
 }
+.footer {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 60px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #00ffff;
+}
+
+.footer p {
+  margin: 8px 0;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #00ffff;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #00ffff;
+  font-size: 22px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ff00ff;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* ✅ Responsive */
+@media screen and (max-width: 600px) {
+  .footer h2 {
+    font-size: 24px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
+}
+
