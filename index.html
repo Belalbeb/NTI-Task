@@ -9,12 +9,14 @@
 <body>
     <nav class="nav">
         <h3>Navbar</h3>
-        <div class="container">
+          <button class="menu-toggle"  onclick="toggleMenu()">☰</button>
+        <div class="container"  id="nav-links">
             <a onclick="">Home</a>
        <a href="#" onclick="event.preventDefault(); Meal('pizza');">Pizza</a>>
        <a href="#" onclick="event.preventDefault(); Meal('pasta');">Pasta</a>
         <a href="#" onclick="event.preventDefault(); Meal('Saled');">Saled</a>
         <a href="#" onclick="event.preventDefault(); Meal('popcorn');">Popcorn</a>
+        
         </div>
     </nav>
     <section class="image">
@@ -32,6 +34,9 @@
         </div>
  
     </section>
-    <script src="script.js"></script>
+    <script src="script.js">
+       
+
+    </script>
 </body>
 </html>

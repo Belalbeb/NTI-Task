@@ -61,3 +61,6 @@ function showDetails(recipeId) {
 function closeDetails() {
   document.getElementById("details-overlay").classList.add("hidden");
 }
+  function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("active");
+  }
